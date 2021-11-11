@@ -17,7 +17,7 @@ function Header() {
       </div>
 
       <div className="header__right">
-        
+        {/* next step is to create the header__right component */}
 
       </div>
     </div>
