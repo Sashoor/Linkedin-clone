@@ -11,6 +11,7 @@
 .sidebar__avatar{
 margin-bottom: 10px;
 }
+
 .sidebar__top {
     display: flex;
     flex-direction: column;
@@ -33,20 +34,22 @@ margin-bottom: 10px;
     object-fit: cover;
   }
 
+  
   .sidebar__stat {
     margin-top: 10px;
     display: flex;
     justify-content: space-between;
   }
-.sidebar__stat > p {
+
+  .sidebar__stat > p {
     color: gray;
     font-size: 13px;
     font-weight: 600;
   }
-.sidebar__statNumber{
+
+  .sidebar__statNumber{
     font-weight: bold;
     color: #0a66c2 !important;
-
 }
 
 .sidebar__stats {
@@ -57,6 +60,13 @@ margin-bottom: 10px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
   }
+
+  .sidebar__top > h3{
+    color: gray;
+    font-size: 12px;
+    margin-top: 5px;
+  }
+
   .sidebar__top > h4 {
     color: gray;
     font-size: 12px;
